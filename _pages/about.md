@@ -1,49 +1,136 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hi, I'm **Zhenxiang Jiang**, an **AI & Computer Vision Researcher/Engineer**.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+With over three years of experience in deep learning R&D and deployment, my work spans a wide range of computer vision tasks, from low-level image processing to high-level dynamic scene understanding.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+[**CV/Resume**](/files/Resume_ZhenxiangJiang.pdf)
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## **Research Interests**
+- Detection and classification  
+- Human-related tasks  
+- 3D/4D dynamic scene reconstruction  
+- Explainable/trustworthy AI  
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+---
 
-**Markdown generator**
+## **Professional Experience**
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+### **[Learning and Vision Lab, ECE Dept., National University of Singapore](http://lv-nus.org/)**
+*Research Assistant*  
+*Supervisor: [Prof. Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)*  
+**Singapore | August 2023 – February 2025**  
+- Completed a diverse range of computer vision tasks, from low-level image processing to high-level scene understanding.  
+- Co-led a high-resolution non-homogeneous dehazing project that ranked **4th out of 100+ submissions** (CVPR Workshop 2023).  
+- Collaborated on an XAI project with Singapore’s largest national defense R&D organization, delivering two phases of product development.  
+- Designed key modules—camera–world coordinate conversion and interactive 3D/4D visualization—for the GFlow and C4D projects, contributing to publications at **AAAI 2025** and **arXiv**.  
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### **[Temasek Laboratories, National University of Singapore](https://www.temasek-labs.nus.edu.sg/)**
+*Research Assistant*  
+*Supervisor: [Dr. Sunan Huang](https://temasek-labs.nus.edu.sg/program/program_flightsciencefault_tslhs.html)*  
+**Singapore | September 2023 – April 2024**  
+- Led research on a high-frequency drone detection module to enhance onboard drone tracking system accuracy.  
+- Built a fully labeled event camera drone detection dataset by integrating multiple drone detection datasets.  
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+### **[Machine Intelligence Lab, College of Computer Science, Sichuan University](https://machineilab.org/)**
+*Research Assistant*  
+*Supervisor: [Prof. Yuanyuan Chen](https://cs.scu.edu.cn/info/1288/18965.htm)*  
+**Chengdu, China | March 2022 – June 2023**  
+- Initiated research on facial expression recognition under face mask occlusion and developed a seven-class dataset, earning the **Best Presentation Award** at **ACM ICCAI 2023**.  
+- Led the development of WS-GCN for weakly supervised 3D human pose estimation, resulting in a publication at **ACM ICCAI 2024**.  
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### **Chengdu Yinlaiyinwang (Convenient Printing) Technology Co., LTD**
+*Founder, CEO*  
+**Chengdu, China | November 2020 – July 2022**  
+- Led a team of 10 to develop an intelligent online printing system, converting traditional offline printers into smart, internet-connected devices.  
+- Established an on-campus experience store serving over **100,000 students** and creating more than **15 part-time job opportunities**.  
+- Received multiple entrepreneurship awards at the college and university levels.  
+
+---
+
+## **Education**
+
+### **[National University of Singapore](https://www.nus.edu.sg/)**
+*Master of Science in Computer Engineering*  
+*Specialization: Machine Intelligence and Application*  
+**GPA:** 4.69/5.00  
+**Singapore | August 2023 – January 2025**
+
+### **[Sichuan University](https://en.scu.edu.cn/)**
+*Bachelor of Engineering in Artificial Intelligence*  
+**GPA:** 3.80/4.00 | **Top Graduate of Sichuan Province (Top 4%)** | Graduated as **Valedictorian**  
+**Chengdu, Sichuan, China | September 2019 – June 2023**
+
+---
+
+## **Publications**
+
+- **C4D: 4D Made from 3D through Dual Correspondences**  
+  Wang, S., **_Jiang, Z._**, Yang, X., & Wang, X.  
+  *ICCV 2025 (Submitted)*  
+
+- **GFlow: Recovering 4D World from Monocular Video**  
+  Wang, S., Yang, X., Shen, Q., **_Jiang, Z._**, & Wang, X.  
+  *AAAI 2025 (Poster Presentation)*  
+  [arXiv:2405.18426](https://arxiv.org/abs/2405.18426)
+
+- **WS-GCN: Integrating GCN with Weak Supervision for Enhanced 3D Human Pose Estimation**  
+  **_Jiang, Z._**, Chen, Y.  
+  In *Proceedings of the 2024 10th International Conference on Computing and Artificial Intelligence* (pp. 6–13), April 2024  
+  [ACM Digital Library](https://dl.acm.org/doi/10.1145/3669754.3669756)
+
+- **NTIRE 2023 HR Nonhomogeneous Dehazing Challenge Report**  
+  Ancuti, C. O., …, Wu, Y., **_Jiang, Z._**, Liu, S., Yang, X., Jing, Y., … & Busch, C.  
+  In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition* (pp. 1808–1825), 2023  
+  [Paper](https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Ancuti_NTIRE_2023_HR_NonHomogeneous_Dehazing_Challenge_Report_CVPRW_2023_paper.pdf)  
+
+- **A Novel Seven-Class Facial Expression Recognition Method With Face Mask**  
+  **_Jiang, Z._**  
+  In *Proceedings of the 2023 9th International Conference on Computing and Artificial Intelligence* (pp. 178–184), March 2023  
+  [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3594315.3594641)
+
+---
+
+## **Skills**
+
+### **Programming Languages**
+- Python (Advanced)  
+- SQL (Advanced)  
+- C++ (Proficient)  
+- Matlab (Proficient)  
+- CudaC (Proficient)  
+- Java (Intermediate)  
+- Shell Scripting (Intermediate)  
+
+### **Libraries & Frameworks**
+- PyTorch (Advanced)  
+- NumPy (Advanced)  
+- Pandas (Advanced)  
+- Matplotlib (Proficient)  
+- Scikit-Learn (Proficient)  
+- OpenCV (Proficient)  
+- TensorBoard (Familiar)  
+- LaTeX (Familiar)  
+
+### **Tools & Platforms**
+- Linux (Advanced)  
+- MySQL (Advanced)  
+- Git (Advanced)  
+- Docker (Proficient)  
+- FastAPI (Proficient)  
+- Nginx (Familiar)  
+- Vue (Familiar)  
+- GitHub Actions (Familiar)  
+
+### **Languages**
+- English (Fluent)  
+- Mandarin Chinese (Native)

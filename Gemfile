@@ -26,3 +26,7 @@ group :jekyll_plugins do
   gem 'hawkins'
   gem "webrick", "~> 1.8"
 end
+
+gem 'nokogiri'
+gem 'rack', '~> 2.2.4'
+gem 'rspec'
