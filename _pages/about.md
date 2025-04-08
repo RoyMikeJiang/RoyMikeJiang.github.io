@@ -11,6 +11,8 @@ Hi, I'm **Zhenxiang Jiang**, an **AI & Computer Vision Researcher/Engineer**.
 
 With over three years of experience in deep learning R&D and deployment, my work spans a wide range of computer vision tasks, from low-level image processing to high-level dynamic scene understanding.
 
+[**Portfolio**](/portfolio/)
+
 [**CV/Resume**](/files/Resume_ZhenxiangJiang.pdf)
 
 ---
