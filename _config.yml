@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Zhenxiang Jiang (姜振翔)"
+title                    : "Zhenxiang (Roy) Jiang"
 title_separator          : "-"
-name                     : &name "Zhenxiang Jiang"
-description              : &description "MSc Graduate from NUS"
+name                     : &name "Zhenxiang (Roy) Jiang"
+description              : &description "Applied Scitentist @ OpusClip"
 url                      : https://RoyMikeJiang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "RoyMikeJiang.github.io"
@@ -22,12 +22,12 @@ repository               : "RoyMikeJiang.github.io"
 author:
   # Biographic information
   avatar           : "photo.jpg"
-  name             : "Zhenxiang Jiang (姜振翔)"
+  name             : "Zhenxiang (Roy) Jiang"
   pronouns         : # example: "she/her"  
-  bio              : "MSc Graduate in Computer Engineering from NUS"
-  location         : "Los Angeles, CA, USA" # City, State (e.g. "San Francisco, CA")
-  employer         : # Employer name
-  uri              : # URL
+  bio              : "Applied Scientist @ OpusClip"
+  location         : "Sunnyvale, CA, USA" # City, State (e.g. "San Francisco, CA")
+  employer         : "OpusClip"
+  uri              : 
   email            : "zhenxiang.jiang@outlook.com" 
 
   # Academic websites

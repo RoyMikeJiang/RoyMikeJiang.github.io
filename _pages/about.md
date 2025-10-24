@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm **Zhenxiang Jiang**, an **AI & Computer Vision Researcher/Engineer**.
+Hi, I'm **Zhenxiang (Roy) Jiang**, an **Applied Scientist/AI Engineer/Researcher**.
 
-With over three years of experience in deep learning R&D and deployment, my work spans a wide range of computer vision tasks, from low-level image processing to high-level dynamic scene understanding.
+With over three years of experience in deep learning R&D and deployment, my work spans a wide range of artificial intelligence tasks, from computer vision to large language model.
 
 [**Portfolio**](/portfolio/)
 
@@ -17,7 +17,11 @@ With over three years of experience in deep learning R&D and deployment, my work
 
 ---
 
-## **Research Interests**
+## **Research & Development Areas**
+- **Video Agent**
+- **Image/Video Understanding**
+- Large language model
+- Image generation & editing
 - Detection and classification  
 - Human-related tasks  
 - 3D/4D dynamic scene reconstruction  
@@ -27,7 +31,17 @@ With over three years of experience in deep learning R&D and deployment, my work
 
 ## **Professional Experience**
 
-### **[Learning and Vision Lab, ECE Dept., National University of Singapore](http://lv-nus.org/)**
+### **[OpusClip](https://opus.pro)**
+*AI Engineer/Applied Scientist*  
+*Direct Manager: [Vito Zhu](https://www.linkedin.com/in/wenbo-zhu-9138a5125/)*  
+**Palo Alto, California, US | May 2025 - Present**  
+- Contributing to the development of [Agent Opus](https://www.opus.pro/agent), which is an AI video agent that turns your ideas in any form into polished videos.
+- Focusing on **integrating real-world assets**, including images, webpages, videos, and posts, into video generation pipelines.
+- Led the design and implementation of core workflows for agent **action and evaluation**, with a particular emphasis on image and video understanding and their evaluation across different agents.
+- Designed workflows for **atomic template creation**, seamlessly integrating real-world assets with image/video generation and editing capabilities.
+- Researched the ability of integrating the ability of detection, segmentation with LLM-based agent system.
+
+### **[Learning and Vision Lab, ECE Dept., National University of Singapore](https://lv-nus.org/)**
 *Research Assistant*  
 *Supervisor: [Prof. Xinchao Wang](https://sites.google.com/site/sitexinchaowang/)*  
 **Singapore | August 2023 – February 2025**  
@@ -50,7 +64,7 @@ With over three years of experience in deep learning R&D and deployment, my work
 - Initiated research on facial expression recognition under face mask occlusion and developed a seven-class dataset, earning the **Best Presentation Award** at **ACM ICCAI 2023**.  
 - Led the development of WS-GCN for weakly supervised 3D human pose estimation, resulting in a publication at **ACM ICCAI 2024**.  
 
-### **Chengdu Yinlaiyinwang (Convenient Printing) Technology Co., LTD**
+### **Yinlaiyinwang (Convenient Printing) Technology**
 *Founder, CEO*  
 **Chengdu, China | November 2020 – July 2022**  
 - Led a team of 10 to develop an intelligent online printing system, converting traditional offline printers into smart, internet-connected devices.  
@@ -78,12 +92,13 @@ With over three years of experience in deep learning R&D and deployment, my work
 
 - **C4D: 4D Made from 3D through Dual Correspondences**  
   Wang, S., **_Jiang, Z._**, Yang, X., & Wang, X.  
-  *ICCV 2025 (Submitted)*  
+  *ICCV 2025 (Accepted)*  
+  [Paper](https://arxiv.org/abs/2510.14960) 
 
 - **GFlow: Recovering 4D World from Monocular Video**  
   Wang, S., Yang, X., Shen, Q., **_Jiang, Z._**, & Wang, X.  
-  *AAAI 2025 (Poster Presentation)*  
-  [arXiv:2405.18426](https://arxiv.org/abs/2405.18426)
+  In *Proceedings of the AAAI Conference on Artificial Intelligence* (Vol. 39, No. 8, pp. 7862-7870), April 2025  
+  [Paper](https://doi.org/10.1609/aaai.v39i8.32847)
 
 - **WS-GCN: Integrating GCN with Weak Supervision for Enhanced 3D Human Pose Estimation**  
   **_Jiang, Z._**, Chen, Y.  
